@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agri‑IA – Assistant intelligent pour l’agriculture durable</title>
+    <meta name="description" content="Agri‑IA aide les agriculteurs à diagnostiquer les maladies des plantes, anticiper la météo et recevoir des recommandations agronomiques personnalisées." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="brand" aria-label="Agri‑IA Accueil">
+                <span class="brand-mark" aria-hidden="true">🌱</span>
+                <span class="brand-text">Agri‑IA</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+                <a href="#probleme">Problème</a>
+                <a href="#solution">Solution</a>
+                <a href="#cibles">Cibles</a>
+                <a href="#impact">Impact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="accueil">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1>Agri‑IA<br /><span class="accent">Assistant intelligent pour l’agriculture</span></h1>
+                    <p class="lead">Plateforme qui met l’intelligence artificielle au service des agriculteurs.</p>
+                    <div class="hero-cta">
+                        <a href="https://agri-ia.vercel.app/" class="btn btn-primary">Découvrir la solution</a>
+                    </div>
+                    
+                </div>
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="device-card">
+                        <div class="device-screen">
+                            <img class="device-image" src="/images/plante.jpg" alt="image" />
+                        </div>
+                        <div class="device-shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="probleme">
+            <div class="container">
+                <h2>Problème identifié</h2>
+                <p class="section-intro">Aujourd’hui, de nombreux agriculteurs au Sénégal rencontrent les mêmes difficultés :</p>
+                <ul class="list">
+                    <li>Faibles rendements dus aux pratiques traditionnelles non optimisées.</li>
+                    <li>Manque de suivi climatique (sécheresses, inondations, pluies imprévisibles).</li>
+                    <li>Propagation rapide des maladies et parasites faute de diagnostic rapide.</li>
+                    <li>Accès limité aux informations de marché et aux conseils agronomiques pour les petits producteurs.</li>
+                </ul>
+                <p class="consequence">Conséquence : pertes de récoltes, baisse des revenus, insécurité alimentaire.</p>
+            </div>
+        </section>
+
+        <section class="section alt" id="solution">
+            <div class="container">
+                <h2>Solution proposée avec l’IA</h2>
+                <p class="section-intro">Agri‑IA est une plateforme web/mobile qui met l’intelligence artificielle au service des agriculteurs :</p>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">📷</div>
+                        <h3>Diagnostic par photo</h3>
+                        <p>Détection des maladies, carences et parasites via une simple photo.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Analyse météo et climat</h3>
+                        <p>Intégration OpenWeatherMap pour anticiper les risques climatiques.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">💡</div>
+                        <h3>Recommandations personnalisées</h3>
+                        <p>Conseils de fertilisation, irrigation et rotation culturale adaptés.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🛠️</div>
+                        <h3>Tableau de bord</h3>
+                        <p>Suivi des rendements, menaces et prévisions en un coup d’œil.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="cibles">
+            <div class="container">
+                <h2>Cibles visées</h2>
+                <ul class="cards">
+                    <li class="card">Petits producteurs et coopératives (mil, arachide, riz, mangue…)</li>
+                    <li class="card">Organisations paysannes et ONG d’appui</li>
+                    <li class="card">Institutions publiques et projets de développement</li>
+                    <li class="card">Jeunes entrepreneurs ruraux pro‑tech</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section alt" id="impact">
+            <div class="container">
+                <h2>Impact attendu</h2>
+                <ul class="list">
+                    <li>Amélioration des rendements via détection précoce et suivi météo.</li>
+                    <li>Réduction des pertes liées aux aléas et épidémies végétales.</li>
+                    <li>Promotion d’une agriculture durable et intelligente.</li>
+                    <li>Autonomisation grâce à un accès simplifié aux conseils pratiques.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section cta" id="cta">
+            <div class="container cta-inner">
+                <h2>Prêt à cultiver avec l’IA ?</h2>
+                <p>Contactez‑nous pour une démo ou des informations sur Agri‑IA.</p>
+                <form class="cta-form contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Merci ! Votre message a été envoyé.');">
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="name">Nom complet</label>
+                            <input id="name" name="name" type="text" autocomplete="name" placeholder="Votre nom" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="email">E‑mail</label>
+                            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="votre@email.com" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Téléphone (optionnel)</label>
+                            <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Ex: +221 77 123 45 67" />
+                        </div>
+                        <div class="form-field">
+                            <label for="subject">Sujet (optionnel)</label>
+                            <input id="subject" name="subject" type="text" placeholder="Objet du message" />
+                        </div>
+                        <div class="form-field form-field-full">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                        </div>
+                        <div class="form-field form-field-full">
+                            <label class="checkbox">
+                                <input type="checkbox" id="consent" required />
+                                <span>J’accepte d’être contacté au sujet d’Agri‑IA.</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="brand-mark" aria-hidden="true">🌱</span>
+                <span class="brand-text">Agri‑IA</span>
+            </div>
+            <p class="small muted">© <span id="year"></span> Agri‑IA. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
