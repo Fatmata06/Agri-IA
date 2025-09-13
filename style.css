@@ -47,7 +47,7 @@
   .main, main { padding-top: 64px; }
   .hero-inner { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; }
   .hero h1 { font-size: clamp(32px, 4vw, 48px); line-height: 1.1; margin: 0 0 14px; }
-  .hero .accent { color: var(--accent-soft); font-weight: 700; }
+  .hero .accent { color:#28a745; font-weight: 700; }
   .lead { color: var(--text); font-size: 18px; margin: 0 0 18px; }
   
   .hero-cta { display: flex; gap: 10px; margin: 8px 0 14px; }
@@ -81,20 +81,20 @@
   object-fit: contain;
 }
 
-  .feature h3 { margin: 8px 0; font-size: 18px; }
+  .feature h3 { margin: 8px 0; font-size: 18px;color: var(--muted); }
   .feature p { margin: 0; color: var(--muted); }
   
   .cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; color: var(--text); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.30); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; color: var(--muted); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.30); }
   
   /* CTA */
   .cta { text-align: center; background: var(--card);}
-  .cta-inner { display: grid; gap: 4px; justify-items: center; }
+  .cta-inner { display: grid; gap: 4px; justify-items: center; color: var(--muted);}
   .cta-form { display: grid; gap: 12px; width: 100%; max-width: 720px; }
   .contact-form { margin-top: 12px; }
   .cta .small { margin-top: 6px; }
-  .cta-form input { padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(134, 239, 172, 0.3); background: rgb(27, 63, 53); color: var(--text); outline: none; }
-  .cta-form textarea { padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(134, 239, 172, 0.3); background: rgb(27, 63, 53); color: var(--text); outline: none; resize: vertical; }
+  .cta-form input { padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(134, 239, 172, 0.3); background: rgb(27, 63, 53); color: var(--muted); outline: none; }
+  .cta-form textarea { padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(134, 239, 172, 0.3); background: rgb(27, 63, 53); color: var(--muted); outline: none; resize: vertical; }
   .cta-form input:focus { border-color: var(--accent-soft); box-shadow: 0 0 0 3px rgba(134, 239, 172, 0.25); }
   .cta-form textarea:focus { border-color: var(--accent-soft); box-shadow: 0 0 0 3px rgba(134, 239, 172, 0.25); }
   .contact-form .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
